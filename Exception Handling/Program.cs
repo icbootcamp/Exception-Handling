@@ -28,6 +28,7 @@ namespace Exception_Handling
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Hi From Bob");
             DivNumbers d = new DivNumbers();
             d.division(25, 0);
             Console.ReadKey();
